@@ -18,7 +18,7 @@
 - **Tecnologia De Orientação A Objetos E Ferramentas UML (oo-e-uml)**
 
 ### 2º Trimestre
-- **Linguagem De Programação Java II (java-ii)**
+- **[Linguagem De Programação Java II (java-ii)](https://github.com/thePaulCode/utfpr-pos-graduacao/tree/main/4-java-ii)**
 - **[Sistemas de Banco de Dados (banco)](https://github.com/thePaulCode/java-posgraduacao/tree/main/5-banco)**
 
 ### 3º Trimestre
