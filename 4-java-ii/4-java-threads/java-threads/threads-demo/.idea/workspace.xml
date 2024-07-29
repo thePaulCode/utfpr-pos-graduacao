@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3a7934e-00a3-479f-9084-6edbbcd7b5ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/atomicinteger/AtomicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/atomicinteger/Contador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/atomicinteger/MyThreadAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/conta/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/conta/ContaTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/exempleracecondition/CorridaDeMoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/exempleracecondition/ExemploRaceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/exempleracecondition/RaceConditionEscritores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/mythread/JoinThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/mythread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/mythread/UseThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/racecondition/Sincronismo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/sumarray/MyThreadArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/sumarray/SumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/sumarray/Sync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadlistamembros/Entregador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadlistamembros/EntregadorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadlistamembros/ListaMembros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadsafe/NameList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadsafe/ThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadsafe/ThreadSafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadsjoin/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadsjoin/ThreadDemoRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadticktock/MyThreadTickTock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadticktock/ThreadTickTockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadsdemo/threadticktock/TickTock.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2iehxh9t63OYcukp2BWP4ED03F0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/trilhaJava/pos-graduacao/5-banco/4-jpa/java-backend-categoria-musica-webconf&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsdemo.atomicinteger.AtomicTest" />
+      <module name="threads-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadsdemo.atomicinteger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CorridaDeMoto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsdemo.exempleracecondition.CorridaDeMoto" />
+      <module name="threads-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadsdemo.exempleracecondition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleRaceTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsdemo.exempleracecondition.ExampleRaceTwo" />
+      <module name="threads-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadsdemo.exempleracecondition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadSafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsdemo.threadsafe.ThreadSafe" />
+      <module name="threads-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadsdemo.threadsafe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTickTockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadsdemo.threadticktock.ThreadTickTockTest" />
+      <module name="threads-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadsdemo.threadticktock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AtomicTest" />
+        <item itemvalue="Application.CorridaDeMoto" />
+        <item itemvalue="Application.ExampleRaceTwo" />
+        <item itemvalue="Application.ThreadTickTockTest" />
+        <item itemvalue="Application.ThreadSafe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3a7934e-00a3-479f-9084-6edbbcd7b5ef" name="Changes" comment="" />
+      <created>1719857198674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719857198674</updated>
+      <workItem from="1719857199760" duration="67000" />
+      <workItem from="1719857283450" duration="5741000" />
+      <workItem from="1719873567247" duration="47000" />
+      <workItem from="1719932839498" duration="4773000" />
+      <workItem from="1719956404157" duration="2228000" />
+      <workItem from="1720035343167" duration="5416000" />
+      <workItem from="1720047397560" duration="38000" />
+      <workItem from="1720130669466" duration="3045000" />
+      <workItem from="1720374009385" duration="648000" />
+      <workItem from="1720378753204" duration="20000" />
+      <workItem from="1720447906053" duration="9938000" />
+      <workItem from="1720467368628" duration="3335000" />
+      <workItem from="1720532028581" duration="2200000" />
+      <workItem from="1720534327103" duration="3267000" />
+      <workItem from="1720659819660" duration="3648000" />
+      <workItem from="1720707976877" duration="10391000" />
+      <workItem from="1720807227999" duration="10976000" />
+      <workItem from="1721001661815" duration="19000" />
+      <workItem from="1721052526582" duration="15670000" />
+      <workItem from="1721226077510" duration="14711000" />
+      <workItem from="1721330365945" duration="7332000" />
+      <workItem from="1721434508043" duration="4112000" />
+      <workItem from="1721496013838" duration="960000" />
+      <workItem from="1721600022811" duration="10267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threadsdemo/threadticktock/TickTock.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threadsdemo/threadticktock/TickTock.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threadsdemo/threadlistamembros/Entregador.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

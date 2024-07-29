@@ -1,0 +1,38 @@
+Java IO
+
+Java IO (Input/Output) é um pacote de classes e interfaces
+que permite a leitura e escrita de dados. Ele é essencial
+para operações como leitura de arquivos, escrita de dados,
+e comunicação via rede.
+
+Principais classes e interfaces:
+
+1. InputStream / OutputStream
+   - Abstrações para leitura e escrita de bytes.
+   - FileInputStream / FileOutputStream: Manipulação de arquivos.
+   - BufferedInputStream / BufferedOutputStream: Leitura e escrita
+     eficientes com buffer.
+
+2. Serializable
+   - Interface para converter um objeto em um stream de bytes,
+     permitindo sua gravação em arquivos ou envio pela rede.
+
+Uso comum:
+
+- Leitura de arquivos:
+```java
+import java.io.*;
+
+public class ExemploLeituraBytes {
+    public static void main(String[] args) {
+        try (FileInputStream fis = new FileInputStream("exemplo.txt")) {
+            int byteData;
+            while ((byteData = fis.read()) != -1) {
+                System.out.print((char) byteData);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
