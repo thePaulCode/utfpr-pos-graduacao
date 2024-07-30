@@ -1,4 +1,4 @@
-<div align=center># Turma XXX - Especialização em Tecnologia Java</div><div>
+<div align=center><b>Turma XXX - Especialização em Tecnologia Java</b></div><div>
 <span></span>
 <br>
 
@@ -15,7 +15,7 @@
 ### 1º Trimestre
 - **Integração Contínua (devops)**
 - **Linguagem De Programação Java I (java-i)**
-- **Tecnologia De Orientação A Objetos E Ferramentas UML (oo-e-uml)**
+- **[Tecnologia De Orientação A Objetos E Ferramentas UML (oo-e-uml)](https://github.com/thePaulCode/utfpr-pos-graduacao/tree/main/1-uml)**
 
 ### 2º Trimestre
 - **[Linguagem De Programação Java II (java-ii)](https://github.com/thePaulCode/utfpr-pos-graduacao/tree/main/4-java-ii)**
