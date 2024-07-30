@@ -65,11 +65,22 @@
       <option name="presentableId" value="Default" />
       <updated>1722282627375</updated>
       <workItem from="1722282628618" duration="1366000" />
-      <workItem from="1722286200625" duration="2210000" />
+      <workItem from="1722286200625" duration="5264000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
