@@ -1,6 +1,7 @@
 package ocp_dip;
 
 public class EmissorNf {
-    public EmissorNf() {
+    public void emitir() {
+        System.out.println("Emissao de NF...");
     }
 }
