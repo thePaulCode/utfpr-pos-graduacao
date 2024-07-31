@@ -1,6 +1,6 @@
 package ocp_dip;
 
-public class Caixa {
+public final class Caixa {
 
     private final Correio correio;
     private final EmissorNf emissorNf;
@@ -12,27 +12,19 @@ public class Caixa {
         this.integraParaEstoque = new IntegraParaEstoque();
     }
 
-    public Venda faturar(Venda venda){
+    public Venda faturar(Venda venda, Transportadora transportadora, TabelaDescontos tabelaDescontos){
 
         // verifica o calculo do frete
-        if(venda.getEstadoEntrega().equalsIgnoreCase("Parana")){
-            venda.setFrete(10);
-        } else {
-            venda.setFrete(30);
-        }
+        venda.setFrete(transportadora.calcularFrete(venda));
 
         // verifica o calculo do desconto
-        if(venda.getTipoCliente().equals("PF")){
-            venda.setDesconto(venda.getValorTotal()*0.1);
-        } else if(venda.getTipoCliente().equals("PJ")){
-            venda.setDesconto(venda.getValorTotal()*0.05);
-        }
+        venda.setDesconto(tabelaDescontos.calcularDesconto(venda));
 
         System.out.println("Venda faturada!");
 
-        this.emissorNf.emitir();
-        this.correio.notificarFornecedor();
-        this.integraParaEstoque.integrar();
+        this.emissorNf.emitir(); // emite NF
+        this.correio.notificarFornecedor(); // notificacao ao cliente
+        this.integraParaEstoque.integrar(); // dar baixa nos itens do estoque
 
         return venda;
     }

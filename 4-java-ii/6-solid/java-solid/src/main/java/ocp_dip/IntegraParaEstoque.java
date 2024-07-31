@@ -1,6 +1,7 @@
 package ocp_dip;
 
 public class IntegraParaEstoque {
-    public IntegraParaEstoque() {
+    public void integrar() {
+        System.out.println("Integrar para estoque");
     }
 }
