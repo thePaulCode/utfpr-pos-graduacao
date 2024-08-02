@@ -1,15 +1,16 @@
 package ocp_dip;
 
+import java.util.List;
+
 public final class Caixa {
 
-    private final Correio correio;
-    private final EmissorNf emissorNf;
-    private final IntegraParaEstoque integraParaEstoque;
+    private final List<AcoesAposFaturamento> acoesAposFaturamentoList;
 
-    public Caixa(){
-        this.correio = new Correio();
-        this.emissorNf = new EmissorNf();
-        this.integraParaEstoque = new IntegraParaEstoque();
+
+    // TODO - aplicar inversao de dependencias
+    // Lista de acoes apos faturar Venda
+    public Caixa(List<AcoesAposFaturamento> acoesAposFaturamentoList){
+        this.acoesAposFaturamentoList = acoesAposFaturamentoList;
     }
 
     public Venda faturar(Venda venda, Transportadora transportadora, TabelaDescontos tabelaDescontos){
@@ -22,9 +23,8 @@ public final class Caixa {
 
         System.out.println("Venda faturada!");
 
-        this.emissorNf.emitir(); // emite NF
-        this.correio.notificarFornecedor(); // notificacao ao cliente
-        this.integraParaEstoque.integrar(); // dar baixa nos itens do estoque
+        // TODO implementar interface Lista acoes
+        this.acoesAposFaturamentoList.forEach( acao -> acao.executar(venda));
 
         return venda;
     }

@@ -19,10 +19,16 @@ public class OcpDip {
         );
 
         final Venda venda = new Venda("Paul", TipoCliente.PF, "Parana", itens);
-        final Caixa caixa = new Caixa();
+        final List<AcoesAposFaturamento> acoesAposFaturamentoList = List.of(
+            new EmissorNf(), new Correio(), new IntegraParaEstoque()
+
+        );
+
+        final Caixa caixa = new Caixa(acoesAposFaturamentoList);
+
         final Venda vendaFaturada = caixa.faturar(venda, new TransportadoraCorreios(), new TabelaNormal());
 
-        System.out.println("O desconto da venda é: " + vendaFaturada.getDesconto());
-        System.out.println("O frete da venda é: " + vendaFaturada.getFrete());
+        System.out.println("O desconto da venda é: " + venda.getDesconto());
+        System.out.println("O frete da venda é: " + venda.getFrete());
     }
 }

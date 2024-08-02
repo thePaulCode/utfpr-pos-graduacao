@@ -1,7 +1,9 @@
 package ocp_dip;
 
-public class Correio {
-    public void notificarFornecedor() {
+public class Correio implements AcoesAposFaturamento{
+    @Override
+    public void executar(Venda venda) {
         System.out.println("Notificando fornecedores...");
+
     }
 }

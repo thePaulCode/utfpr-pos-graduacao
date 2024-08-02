@@ -15,8 +15,8 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,7 +37,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;sem-solid&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;com-solid&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/trilhaJava/pos-graduacao/utfpr-pos-graduacao/4-java-ii/6-solid/java-solid&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -84,7 +84,8 @@
       <workItem from="1722282628618" duration="1366000" />
       <workItem from="1722286200625" duration="5264000" />
       <workItem from="1722388236498" duration="2263000" />
-      <workItem from="1722452141630" duration="5134000" />
+      <workItem from="1722452141630" duration="5836000" />
+      <workItem from="1722608280936" duration="2672000" />
     </task>
     <servers />
   </component>
