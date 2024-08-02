@@ -1,7 +1,9 @@
 package ocp_dip;
 
-public class IntegraParaEstoque {
-    public void integrar() {
+public class IntegraParaEstoque implements AcoesAposFaturamento{
+
+    @Override
+    public void executar(Venda venda) {
         System.out.println("Integrar para estoque");
     }
 }
