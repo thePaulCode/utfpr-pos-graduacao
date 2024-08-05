@@ -15,8 +15,8 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "com-liskov",
+    "git-widget-placeholder": "sem-isp",
     "last_opened_file_path": "C:/trilhaJava/pos-graduacao/utfpr-pos-graduacao/4-java-ii/6-solid/java-solid",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,16 +50,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="isp" />
       <recent name="lspteste" />
       <recent name="lsp" />
       <recent name="ocp_dip" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="isp" />
       <recent name="lsp" />
       <recent name="lspteste" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lsp">
+  <component name="RunManager">
     <configuration name="lsp" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="lsp.LiskovSP" />
       <module name="java-solid" />
