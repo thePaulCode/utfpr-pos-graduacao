@@ -1,23 +1,30 @@
 package lsp;
 
 public class Conta {
-    protected double saldo;
 
+    /**
+     * inteface ManipuladorSaldo
+     *
+     * composicao criar ponto de extensao
+     * sem alterar o comportamento original
+     * remocao das herancas, composicao de comportamentos
+     * */
+    protected final ManipuladorSaldo manipuladorSaldo;
+
+    public Conta(ManipuladorSaldo manipuladorSaldo) {
+        this.manipuladorSaldo = manipuladorSaldo;
+    }
 
     public void depositar(double valor) {
-        this.saldo += valor;
+        this.manipuladorSaldo.depositar(valor);
     }
 
     public void sacar(double valor) {
-        this.saldo -= valor;
+        this.manipuladorSaldo.sacar(valor);
     }
 
     public void render() {
-        this.saldo += this.saldo * 0.05;
+        this.manipuladorSaldo.render();
     }
 
-    public double getSaldo() {
-
-        return saldo;
-    }
 }
