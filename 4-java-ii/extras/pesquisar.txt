@@ -1,0 +1,6 @@
+http
+
+por que não se pode guardar o token de auth no localstorage do browser
+
+api rest - não usar o método PUT para atualizar a senha do user
+e sim o PATCH

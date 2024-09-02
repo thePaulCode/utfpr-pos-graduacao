@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Application {
 
-    public static final String ROOT = "C:\\trilhaJava\\pos-graduacao\\4-java-ii\\atividades\\atividade02"
+    public static final String ROOT = "C:\\trilhaJava\\pos-graduacao\\utfpr-pos-graduacao\\4-java-ii\\atividades\\atividade02"
             + File.separator + "hd";
 
     public Application() {
