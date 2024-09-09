@@ -38,20 +38,21 @@
                     </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>Londrina</td>
-                    <td>Paraná</td>
-                    <td>
-                        <div class="d-flex d-justify-content-center">
-                            <a class="btn btn-warning mr-3">ALTERAR</a>
-                            <a class="btn btn-danger">EXCLUIR</a>
+                    <#list listaCidades as cidade>
+                        <tr>
+                            <td>${cidade.nome}</td>
+                            <td>${cidade.estado}</td>
+                            <td>
+                                <div class="d-flex d-justify-content-center">
+                                    <a class="btn btn-warning mr-3">ALTERAR</a>
+                                    <a class="btn btn-danger">EXCLUIR</a>
 
-                        </div>
-                    </td>
-                </tr>
+                                </div>
+                            </td>
+                        </tr>
+                    </#list>
                 </tbody>
             </table>
-
 
         </form>
     </div>
