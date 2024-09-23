@@ -1,5 +1,7 @@
 {
-  "annotations": {},
+  "annotations": {
+    "changelogDate": "20240920204246"
+  },
   "applications": "*",
   "documentation": "Task entity.\\n@author The JHipster team.",
   "fields": [
@@ -22,5 +24,6 @@
       "relationshipType": "many-to-many"
     }
   ],
+  "searchEngine": "no",
   "service": "serviceImpl"
 }
