@@ -4,11 +4,15 @@
 package local.javaredes;
 
 import java.io.DataOutputStream;
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -55,14 +59,17 @@ public class Servidor extends Thread {
 
     public static void main(String[] args) {
 
+        if (!"UTF-8".equals(System.out.charset().displayName())) {
+            System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out), true, StandardCharsets.UTF_8));
+        }
         try {
             System.out.println("Aguardando conexão... ");
             server = new ServerSocket(50000);
-            while (true) {                
-                
-                System.out.println("Aguardando requisições... ");                
+            while (true) {
+
+                System.out.println("Aguardando requisições... ");
                 Socket connection = server.accept();
-                
+
                 ObjectInputStream objInput = new ObjectInputStream(connection.getInputStream());
                 Servidor tServidor = new Servidor(connection, objInput);
                 tServidor.start();
