@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -18,23 +18,42 @@
         </div>
 
         <#if cidadeAtual??>
-            <form action="/alterar" method="post">
+            <form action="/alterar" method="post" class="needs-validation" novalidate>
                 <input type="hidden" name="nomeAtual" value="${(cidadeAtual.nome)!}" />
                 <input type="hidden" name="estadoAtual" value="${(cidadeAtual.estado)!}" />
         <#else>
-            <form action="/criar" method="post">
+            <form action="/criar" method="post" class="needs-validation" novalidate>
         </#if>
             <div class="form-group">
                 <label for="nome">Cidade:</label>
 
-                <input value="${(cidadeAtual.nome)!}"  name="nome" type="text" class="form-control" placeholder="Informe o nome da cidade" id="nome" />
+                <input maxlength="50"
+                       value="${(cidadeAtual.nome)!}${nomeInformado!}"
+                       name="nome"
+                       type="text"
+                       class="form-control ${(nome??)?then('is-invalid', '')}"
+                       placeholder="Informe o nome da cidade"
+                       id="nome"
+                />
+                <div class="invalid-feedback">
+                    ${nome!}
+                </div>
             </div>
 
             <div class="form-group">
                 <label for="nome">Estado:</label>
 
-                <input value="${(cidadeAtual.estado)!}" name="estado"  type="text" class="form-control" placeholder="Informe o estado ao qual a cidade pertence"
-                       id="estado" />
+                <input maxlength="2"
+                       value="${(cidadeAtual.estado)!}${estadoInformado!}"
+                       name="estado"
+                       type="text"
+                       class="form-control ${(estado??)?then('is-invalid', '')}"
+                       placeholder="Informe o estado ao qual a cidade pertence"
+                       id="estado"
+                />
+                <div class="invalid-feedback">
+                    ${estado!}
+                </div>
             </div>
                 <#if cidadeAtual??>
                     <button type="submit" class="btn btn-warning">CONCLUIR ALTERAÇÃO</button>
