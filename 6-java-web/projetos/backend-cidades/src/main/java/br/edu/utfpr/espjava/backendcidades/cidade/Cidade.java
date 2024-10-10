@@ -1,4 +1,4 @@
-package br.edu.utfpr.espjava.backendcidades.view;
+package br.edu.utfpr.espjava.backendcidades.cidade;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
