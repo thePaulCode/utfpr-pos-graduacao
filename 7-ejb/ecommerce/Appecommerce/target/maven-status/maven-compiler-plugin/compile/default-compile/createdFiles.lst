@@ -1,0 +1,9 @@
+br\jsf\JsfProduto.class
+br\data\crud\EjbCompra.class
+br\JakartaRestConfiguration.class
+br\jsf\JsfCompra.class
+br\model\ItemCompra.class
+br\data\crud\CrudProduto.class
+br\model\Produto.class
+br\ejb\EjbProduto.class
+br\resources\JakartaEE8Resource.class

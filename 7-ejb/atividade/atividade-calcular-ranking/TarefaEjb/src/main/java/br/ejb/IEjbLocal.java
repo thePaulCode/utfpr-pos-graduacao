@@ -1,0 +1,18 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package br.ejb;
+
+import javax.ejb.Local;
+
+/**
+ *
+ * @author Paulo Santos
+ */
+@Local
+public interface IEjbLocal {
+    
+    int somar(int a, int b, int valorUsuario);
+    
+}

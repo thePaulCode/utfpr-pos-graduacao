@@ -1,0 +1,11 @@
+br\JakartaRestConfiguration.class
+br\ejb\EjbUsuario.class
+br\ejb\IEjbLocal.class
+br\ejb\EjbCalcular.class
+br\ejb\IEjbCalcularLocal.class
+br\model\Calcular.class
+br\resources\JakartaEE8Resource.class
+br\jsf\JsfCalcular.class
+br\jsf\JsfUsuario.class
+br\model\ICalcular.class
+br\model\Usuario.class
