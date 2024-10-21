@@ -1,6 +1,6 @@
 package br.edu.utfpr.apptodo.demo;
 
-public record Todo(Long ig, String titulo, String descricao, boolean feito) {
+public record Todo(String id, String titulo, String descricao, boolean feito) {
 
     public Todo {
         if((titulo == null) || (titulo.length() < 3)){
