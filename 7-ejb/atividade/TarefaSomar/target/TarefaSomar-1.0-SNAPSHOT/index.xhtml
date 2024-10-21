@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Calculadora com Usuário</title>
+    </h:head>
+    <h:body>
+        <center>    
+            <br/>
+            <h2>Cadastro de Usuário</h2>
+            <h:form id="formUsuario">
+                <h:outputLabel for="nomeUsuario" value="Nome do usuário:" />
+                <h:inputText id="nomeUsuario" value="#{jsfRanking.nomeUsuario}" required="true" requiredMessage="O nome é obrigatório." />
+                <h:commandButton value="Adicionar Usuário" action="#{jsfRanking.add}" />
+            </h:form>
+
+            <br/>
+            <h2>Calculadora</h2>
+            <h:form id="formCalculo">
+                <h:commandButton value="Gerar" action="#{jsfRanking.gerarNovosNumeros()}"></h:commandButton>
+                [<h:outputText value="#{jsfRanking.randonA}" />] + 
+                [<h:outputText value="#{jsfRanking.randonB}" />] =
+                <h:inputText value="#{jsfRanking.valorUsuario}" required="true" requiredMessage="Insira um valor." />
+                
+                <h:commandButton value="Verificar" action="#{jsfRanking.somar}" />
+                
+                <br/><br/>
+                <h:outputText value="#{jsfRanking.randonA}" /> <br/>
+                <h:outputText value="#{jsfRanking.randonB}" /> <br />
+                <h:outputText value="#{jsfRanking.resultado}" />
+                <br/>
+                
+            </h:form>
+            
+            <br />
+            <br />
+            <h3>Ranking</h3>
+            <h:form>
+                <h:dataTable value="#{jsfRanking.all}" var="user">
+                    <h:column >
+                        <h:outputText value="#{user.usuario.nome}"></h:outputText>
+                    </h:column>
+                     <h:column >
+                        <h:outputText value="#{user.pontuacao}"></h:outputText>
+                    </h:column>
+                </h:dataTable>
+            </h:form>
+        </center>
+    </h:body>
+</html>
+
